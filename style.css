@@ -5,6 +5,8 @@
 h1 {
     font-weight: 700;
     font-size: 24px;
+    color: black;
+    margin: 0 0 16px 0;
 }
 
 a {
@@ -14,6 +16,7 @@ a {
 
 p {
     color: #979797;
+    margin: 0 0 24px 0;
 }
 
 section {
@@ -22,10 +25,13 @@ section {
 
 .btn {
     background-color: yellow;
-    color: white;
+    color: gray;
+    padding: 8px 24px; /* Adjusted padding for better appearance */
 }
 
 .btn-alt {
     background-color: white;
     color: black;
+    margin-right: 8px; /* Added margin for spacing */
+    border: 2px solid yellow; 
 }
