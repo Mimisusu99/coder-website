@@ -4,7 +4,7 @@
 
 h1 {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 36px;
     color: black;
     margin: 0 0 16px 0;
 }
@@ -21,11 +21,17 @@ p {
 
 section {
         background-image: url(https://project-imas.wiki/images/d/d2/SC_P_Tsukioka_Kogane_SR03%2B.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: flow-root;
+        
+        
 }
 
 .btn {
-    background-color: yellow;
-    color: gray;
+    background-color: #ffc108;
+    color: white;
     padding: 8px 24px; /* Adjusted padding for better appearance */
 }
 
@@ -33,5 +39,14 @@ section {
     background-color: white;
     color: black;
     margin-right: 8px; /* Added margin for spacing */
-    border: 2px solid yellow; 
+    border: 2px solid #ffc108; 
+}
+
+.landing p {
+    margin: 0 0 24px 0;
+} 
+
+nav > a {
+    margin-left: 8px;
+    color: #ffc108;
 }
