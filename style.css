@@ -99,3 +99,33 @@ nav > a {
     margin-left: 8px;
     color: #ffc108;
 }
+
+.service-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 128px;
+    margin-top: 72px;
+}    
+
+.service-item {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    width: 100%;
+}
+
+.service-item h2 {
+    padding: 0 16px;
+}
+
+.service-item p {
+    font-size: 16px;
+    padding: 0 16px;
+}
