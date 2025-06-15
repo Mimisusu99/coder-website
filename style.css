@@ -20,7 +20,7 @@ p {
 }
 
 section {
-        background-image: url(https://project-imas.wiki/images/d/d2/SC_P_Tsukioka_Kogane_SR03%2B.jpg);
+        /* background-image: url(https://project-imas.wiki/images/d/d2/SC_P_Tsukioka_Kogane_SR03%2B.jpg); */
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
