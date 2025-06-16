@@ -59,6 +59,16 @@ section {
 
 #header h1 {
     margin: 0;
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    from {
+        filter: opacity(0);
+    }
+    to {
+        filter: opacity(1);
+    }
 }
 
 #landing {
