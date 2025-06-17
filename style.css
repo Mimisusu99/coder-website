@@ -307,3 +307,45 @@ form button:hover {
 .footer p {
     color: antiquewhite;
 }
+
+@media only screen and (max-width: 992px) {
+    #header, .footer {
+        padding: 16px 32px;
+    }
+
+    section {padding: 64px 32px;
+    }
+
+    #landing {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #landing > div {
+        width : 100%;
+    }
+
+    #about {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about > div {
+        width: 100%;
+    }
+
+    .service-item {
+        gap: 16px;
+    }
+
+    .Contact-detail {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 64px;
+    }
+}
