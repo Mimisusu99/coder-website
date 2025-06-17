@@ -59,7 +59,27 @@ section {
 
 #header h1 {
     margin: 0;
-    animation: flash 1s infinite;
+    /* animation: flash 1s infinite; */
+    animation: bounceIn 1s;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: translateY(-20px);
+        filter: opacity(0);
+    }
+    35% {
+        filter: opacity(0.25);
+        transform: translateY(0);
+    }
+    70% {
+        filter: opacity(0.5);
+        transform: translateY(-10px);
+    }
+    100% {
+        filter: opacity(1);
+        transform: translateY(0);
+    }
 }
 
 @keyframes flash {
